@@ -9,7 +9,7 @@ let scoreBoard, player1P, player2P;    // a div element to show scores during ga
 
 function showScoreBoard(){
 	scoreBoard = createDiv('');
-	scoreBoard.position(900,400);	
+	scoreBoard.position(800,400);	
 	let  p = createP('Score board').addClass('h1 text-primary');
 	 player1P = createP(' Stones Of Computer ' + player1.stones.length).addClass(' h3 text-danger');
 	 player2P = createP(' Stones Of Your ' + player2.stones.length).addClass(' h3 text-success');
