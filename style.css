@@ -1,0 +1,12 @@
+$bg-color:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+
+body{
+	background:#333;
+	color:#fff;
+}
+.navbar{
+	border-bottom:#008ed6 3px solid;
+	opacity: 0.8;
+}

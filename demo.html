@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<script type="text/javascript" src="jquery.js"></script>
+ 	  <!-- <script type="text/javascript" src="bootstrap.min.js"></script> -->
+ 
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+   
+	<title>How To Play</title>
+</head>
+<body>
+    <div class="container">
+  		<ul class="nav nav-pills">
+  			        <a class="navbar-brand " href="#"><h2>Othelo</h2></a>
+  			        
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">How To Play</a>
+        </li>
+          
+        <li class="nav-item">
+          <a class="nav-link " href="about.html">About</a>
+        </li>
+          
+      </ul>
+
+      <div class="shadow-lg p-3 mb-5 bg-white rounded">
+      <h1 align="center ">Othelo</h1>
+      	<h4 align="center" >
+      		it is two player board strategy game <br/><br/>players having <i class="text-danger"> red  </i> and <i class="text-success"> green </i> stones
+			<br/><br/>player1 have <i class="text-danger"> red stones </i> <br/> <br/>player2 have <i class="text-success"> green stones </i>
+	
+      	</h4>
+      </div>
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+				<h2 align="center"> GamePlay</h2>
+				<h4 align="center">
+				 	player1 first put his <i class="text-danger">red stones</i>  
+				 	<br><br>
+				  	on board where he is <strong>allowed</strong> to put
+					   <br><br>
+			 		all<i class="text-success"> green stones </i> between newly placed <i class="text-danger"	> red stone </i>
+	  				<br><br>
+	   				and all his earlier <i class="text-danger"> red stones</i> <br><br>
+					diagnolly, vertically and horizontally are converted into <i class="text-danger"> red stone</i> 
+				</h4>
+			</div>
+
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+			<h3 align="center"> Allowed Places For A Player1 </h3><br>
+			<h4 align="center">
+				all the <i class="text-danger"> red stones</i> see around them <br><br>
+				if they got any <i class="text-success"> green stone</i> <br><br>
+				 then they go to that direction until got an empty space <br><br> 
+					that empty space is allowed for player1 <br><br>
+ 					if in moving that direction player1 <br><br>
+ 					got his own <i class="text-danger"> red stones </i> <br><br>then he stops and 
+	 do not find any empty space  
+	 				<br><br>
+	 					 <div class="text-info">if any player do not find any empty space where he can place his stones <br><br> then
+	 he losts his chance </div>
+	 				</h4>
+	 			</div>
+	 	            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+	 	            	<h3 align="center">same is repeated for
+	 	            	 <i class="text-success"> player2 </i>   </h3>
+	 	          		<h3 class="text-warning" align="center">	 player having more stones at end of game won the match
+</h3>
+	 	            </div>
+					
+    </div>
+</body>
+</html>
